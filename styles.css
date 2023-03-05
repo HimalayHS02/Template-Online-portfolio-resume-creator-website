@@ -1,0 +1,70 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color */
+  body {
+    background-color: #dbdbeb;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set the style of the header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the main section */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the heading for each section */
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  /* Style the labels for the input fields */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style the input fields */
+  input[type="text"], input[type="email"], input[type="tel"], input[type="date"], textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
